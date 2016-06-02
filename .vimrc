@@ -4,12 +4,14 @@ set tabstop=4
 " size of an "indent"
 set shiftwidth=4
 
+" on pressing tab, insert 4 spaces
+set expandtab
+
 " autoindenting without interfering with other settings
-set autoindent
+"set autoindent
 
 " Enable syntax highlighting, automatically chooses color
 syntax on
-
 
 " Enable line numbers
 set number
