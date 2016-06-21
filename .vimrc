@@ -28,5 +28,8 @@ set title
 " Show the current mode
 set showmode
 
-
+" Pathogen to use airline feature
+execute pathogen#infect()
+filetype plugin indent on
+set laststatus=2
 
