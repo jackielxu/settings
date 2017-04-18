@@ -1,10 +1,10 @@
 " size of a hard tabstop
-set tabstop=4
+set tabstop=2
 
 " size of an "indent"
-set shiftwidth=4
+set shiftwidth=2
 
-" on pressing tab, insert 4 spaces
+" on pressing tab, insert spaces
 set expandtab
 
 " autoindenting without interfering with other settings
